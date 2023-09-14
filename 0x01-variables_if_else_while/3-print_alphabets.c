@@ -14,12 +14,12 @@ while (al <= 'z')
 putchar(al);
 al++;
 }
-int ab = 'A';
+int j = 'A';
 
-while (ab <= 'Z')
+while (j <= 'Z')
 {
-putchar(ab);
-ab++;
+putchar(j);
+j++;
 }
 
 putchar('\n');
