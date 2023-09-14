@@ -1,10 +1,10 @@
 #include <stdlib.h>
 #include <stdio.h>
- /**
-  * main - starting point of the program
-  * Return: always (0)
-  */
-
+/**
+ * main - program that prints all single digits of base 10
+ *
+ * Return: always (0)
+ */
 int main(void)
 {
 
