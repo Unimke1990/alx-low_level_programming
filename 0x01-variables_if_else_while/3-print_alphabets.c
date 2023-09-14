@@ -8,13 +8,15 @@
 int main(void)
 {
 char al = 'a';
+char j;
 
 while (al <= 'z')
 {
 putchar(al);
 al++;
 }
-char j = 'A';
+
+j = 'A';
 
 while (j <= 'Z')
 {
