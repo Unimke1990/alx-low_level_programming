@@ -3,25 +3,21 @@
  * _islower - detects lowercase and uppercase
  *
  * Description: use _putchar to print
- *
+ *@c: collect alphabets
  * Return:(1) if c is lowercase, otherwise (0)
+ *
  */
 
 int _islower(int c)
 {
-int alph = 'c';
-
-if (alph >= 97 && alph <= 122)
+int lowercase = 0;
+char i;
+for (i = 'a'; i < 'z'; i++)
 {
-return (1);
-}
-
-else
+if (i == c)
 {
-return (0);
+lowercase = 1;
 }
-
-return (0);
 }
-
-
+return (lowercase);
+}
