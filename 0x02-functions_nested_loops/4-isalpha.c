@@ -2,6 +2,7 @@
 /**
  * _isalpha - checks for alphabetic char
  * @c - character to be checked
+ *@c - character that is stored in var
  * Return: 1 if c is a letter, and 0 otherwise
  */
 
