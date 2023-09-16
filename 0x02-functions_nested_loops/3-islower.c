@@ -1,8 +1,10 @@
 #include "main.h"
 /**
- * _islower - checks if char is lowercase
+ * _islower - detects lowercase and uppercase
  *
- * Return: 1 if char is lowercase, otherwise 0
+ * Description: use _putchar to print
+ *
+ * Return:(1) if c is lowercase, otherwise (0)
  */
 
 int _islower(int c)
