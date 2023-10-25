@@ -22,21 +22,23 @@ if (new_node == NULL)
 }
 
 new_node->n = n;
+new_node->next = NULL;
+temp = *head;
 
 if (*head == NULL)
 {
 	*head = new_node;
 }
 
-temp = *head;
+else
+{
 
-while (temp->next != NULL)
+	while (temp->next != NULL)
 	{
 		temp = temp->next;
 	}
 
-new_node->next = NULL;
-temp->next = new_node;
-
+	temp->next = new_node;
+}
 return (*head);
 }
