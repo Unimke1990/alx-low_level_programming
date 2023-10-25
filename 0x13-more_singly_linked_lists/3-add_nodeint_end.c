@@ -32,10 +32,11 @@ temp = *head;
 
 while (temp->next != NULL)
 	{
-	temp = temp->next;
+		temp = temp->next;
 	}
 
 new_node->next = NULL;
 temp->next = new_node;
-return (new_node);
+
+return (*head);
 }
