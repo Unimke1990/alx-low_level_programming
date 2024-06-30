@@ -1,6 +1,8 @@
-CC = gcc
-SRC = main.c holberton.c
-all: $(SRC)
+# building an executable
+
+
+CC=gcc
+SRC=main.c holberton.c
+
+all: main.c holberton.c
 	$(CC) $(SRC) -o holberton
-
-
