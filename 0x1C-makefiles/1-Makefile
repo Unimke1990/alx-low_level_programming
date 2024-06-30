@@ -1,8 +1,7 @@
-# building an executable
+# gcc and some variables ith make file
 
+CC = gcc
+SRC = main.c school.c
 
-CC=gcc
-SRC=main.c holberton.c
-
-all: main.c holberton.c
-	$(CC) $(SRC) -o holberton
+all: ${SRC}
+	${CC} ${SRC} -o school
